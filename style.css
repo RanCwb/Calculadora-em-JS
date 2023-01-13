@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: initial;
+
+}
+body{
+background: linear-gradient(#ccccff,#d9ccff,#ffccd9	  );
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+
+
+}
+#calc{
+
+width: 400px;
+padding: .5em;
+background-color: white;
+color: black;
+flex: flex;
+flex-direction: column;
+border-radius: 30px;
+}
+
+#calc h3{
+
+font-size: 1.8em;
+font-weight: 300;
+color: black;
+text-align: center;
+
+}
+
+#operations{
+
+    text-align: right;
+}
+#previous-operations{
+
+color: black;
+padding: 0.2em;
+overflow-wrap: break-word;
+min-height: 1.6em;
+
+}
+#current-operations{
+min-height: 1.6em;
+font-size: 3em;
+font-weight: 700;
+padding: 0.2em;
+overflow-wrap: break-word;
+}
+
+#buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:3px;
+}
+#buttons-container button{
+border: 1px solid transparent;
+border-radius:0;
+height: 4em;
+font-size: 1.2em;
+background-color: #7B68EE;
+cursor: pointer;
+border-radius: 30px;
+
+
+}
+#buttons-container button:hover{
+
+background-color: grey;
+border-color: grey;
+
+}
+#buttons-container #icon-btn{
+    grid-column: span 2;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+#buttons-container #icon-btn:hover{
+    
+    background-color:#ffcccc
+    
+   
+}
