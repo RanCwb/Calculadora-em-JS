@@ -2,27 +2,30 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: initial;
+font-family: Arial, Helvetica, sans-serif;
+
 
 }
 body{
-background: linear-gradient(#ccccff,#d9ccff,#ffccd9	  );
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 30px;
+padding-bottom: 90px;
+padding-top: 40px;
+background: rgb(34,193,195);
+background: linear-gradient(326deg, rgba(34,193,195,1) 0%, rgba(185,189,92,1) 69%, rgba(45,115,253,1) 93%);
 
 
 }
-#calc{
-
+#calc {
+background-color: white;
 width: 400px;
 padding: .5em;
-background-color: white;
 color: black;
 flex: flex;
 flex-direction: column;
 border-radius: 30px;
+border: 1px solid black;
 }
 
 #calc h3{
@@ -31,6 +34,7 @@ font-size: 1.8em;
 font-weight: 300;
 color: black;
 text-align: center;
+border: 1;
 
 }
 
@@ -58,32 +62,38 @@ overflow-wrap: break-word;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:3px;
+    
 }
 #buttons-container button{
 border: 1px solid transparent;
 border-radius:0;
 height: 4em;
 font-size: 1.2em;
-background-color: #7B68EE;
 cursor: pointer;
 border-radius: 30px;
+color:black;
+background-color: rgba(185,189,92,1);
+
 
 
 }
 #buttons-container button:hover{
 
-background-color: grey;
-border-color: grey;
+background-color:#22c1c3	;
+border-color: black;
 
 }
 #buttons-container #icon-btn{
-    grid-column: span 2;
-    background-color: cornflowerblue;
+   
+    background-color: #22c1c3;
     border-radius: 20px;
+    grid-column: span 2;
+    border: solid 1px  black;
+    
 }
 #buttons-container #icon-btn:hover{
     
-    background-color:#ffcccc
+    background-color:#6495ED;
     
    
 }

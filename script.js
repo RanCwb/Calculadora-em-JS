@@ -19,8 +19,6 @@ class  Calculator{
        this.currentOperation = digit
        this.updateScreen();
 }
-     
-     
      processOperation(operation){
 
         if(this.currentOperationText.innerText === "" && operation !== "C"){
