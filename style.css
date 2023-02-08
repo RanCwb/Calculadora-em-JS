@@ -7,13 +7,13 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
+height: 1200px;
 display: flex;
 align-items: center;
 justify-content: center;
 padding-bottom: 90px;
-padding-top: 40px;
-background: rgb(34,193,195);
-background: linear-gradient(326deg, rgba(34,193,195,1) 0%, rgba(185,189,92,1) 69%, rgba(45,115,253,1) 93%);
+padding-top: 10px;
+background-color: #A9A9A9;
 
 
 }
@@ -29,7 +29,6 @@ border: 1px solid black;
 }
 
 #calc h3{
-
 font-size: 1.8em;
 font-weight: 300;
 color: black;
@@ -71,21 +70,21 @@ height: 4em;
 font-size: 1.2em;
 cursor: pointer;
 border-radius: 30px;
-color:black;
-background-color: rgba(185,189,92,1);
+color: white;
+;background-color: black;
 
 
 
 }
 #buttons-container button:hover{
 
-background-color:#22c1c3	;
+background-color:grey;	;
 border-color: black;
 
 }
 #buttons-container #icon-btn{
    
-    background-color: #22c1c3;
+    background-color: #8B0000;
     border-radius: 20px;
     grid-column: span 2;
     border: solid 1px  black;
@@ -93,7 +92,7 @@ border-color: black;
 }
 #buttons-container #icon-btn:hover{
     
-    background-color:#6495ED;
+    background-color:grey;
     
    
 }
